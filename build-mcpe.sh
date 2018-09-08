@@ -46,15 +46,12 @@ package() {
   done
 }
 
-# Basic prerequirements
-sudo apt update
-sudo apt install -y git cmake pkg-config
-
-# Compiling the MSA dependency (required for Xbox Live)
-
 # Prerequirements
 sudo dpkg --add-architecture i386
-sudo apt install -y ${DEPENDS_STR}
+sudo apt update
+sudo apt install -y git cmake pkg-config ${DEPENDS_STR}
+
+# Compiling the MSA dependency (required for Xbox Live)
 
 # Build instructions
 git clone --recursive https://github.com/minecraft-linux/msa-manifest.git msa
