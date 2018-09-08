@@ -17,3 +17,6 @@ jobs:
       - run:
           name: Build Repo
           command: ./build-repo.sh
+      - run:
+          name: Deploy To Github Pages
+          command: ./deploy.sh
