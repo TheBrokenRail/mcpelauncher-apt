@@ -91,3 +91,4 @@ cp ui/mcpelauncher-ui-qt/Resources/proprietary/mcpelauncher-icon.png out/mcpelau
 mkdir -p out/mcpelauncher-ui-qt-icon/usr/share/applications
 cp -r ../icon/* out/mcpelauncher-ui-qt-icon/usr/share/applications
 dpkg-deb --build out/mcpelauncher-ui-qt-icon
+rm -rf out/mcpelauncher-ui-qt-icon
