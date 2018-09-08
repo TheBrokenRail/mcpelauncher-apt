@@ -15,6 +15,9 @@ jobs:
           name: Build MCPELauncher
           command: ./build-mcpe.sh
       - run:
+          name: Import Key
+          command: gpg --import repo/conf/key
+      - run:
           name: Build Repo
           command: reprepro -b repo includedeb bionic mcpe-build/out/*.deb
       - run:
