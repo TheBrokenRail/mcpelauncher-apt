@@ -1,0 +1,13 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: buildpack-deps:bionic
+    steps:
+      - checkout
+      - run:
+          name: Build MCPELauncher
+          command: ./build-mcpe.sh
+      - run:
+          name: Build Repo
+          command: ./build-repo.sh
