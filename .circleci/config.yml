@@ -1,12 +1,12 @@
 version: 2
 jobs:
   build:
-    machine:
-      image: circleci/classic:edge
+    docker:
+      - image: buildpack-deps:bionic
     steps:
       - run:
-          name: Get Version
-          command: lsb_release -a
+          name: Install Sudo
+          command: apt install sudo
       - checkout
       - run:
           name: Build MCPELauncher
