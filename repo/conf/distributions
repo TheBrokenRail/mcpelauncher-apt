@@ -4,4 +4,4 @@ Codename: bionic
 Architectures: amd64
 Components: main
 Description: MCPELauncher
-SignWith: yes
+SignWith: 1FAE77E6F52263AD
