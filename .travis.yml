@@ -1,8 +1,10 @@
-services:
-  - docker
-sudo: true
+addons:
+  apt:
+    packages:
+     - dpkg-dev
 script:
-  - docker run -v $(pwd):/travis ubuntu:latest bash -c 'cd /travis; apt install sudo dpkg-dev; ./build-mcpe.sh; ./build-repo.sh'
+  - ./build-mcpe.sh
+  - ./build-repo.sh
 deploy:
   provider: pages
   skip-cleanup: true
