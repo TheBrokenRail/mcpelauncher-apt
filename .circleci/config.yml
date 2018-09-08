@@ -1,12 +1,11 @@
 version: 2
 jobs:
   build:
-    docker:
-      - image: buildpack-deps:bionic
+    machine: true
     steps:
       - run:
-          name: Install Sudo
-          command: apt install sudo
+          name: Get Version
+          command: lsb_release -a
       - checkout
       - run:
           name: Build MCPELauncher
