@@ -8,15 +8,15 @@ jobs:
           name: Update APT
           command: apt update
       - run:
-          name: Install Sudo
-          command: apt install -y sudo
+          name: Install Dependencies
+          command: apt install -y sudo reprepro
       - checkout
       - run:
           name: Build MCPELauncher
           command: ./build-mcpe.sh
       - run:
           name: Build Repo
-          command: ./build-repo.sh
+          command: reprepro -b repo includedeb mcpe-build.out/*
       - run:
           name: Deploy To Github Pages
           command: ./deploy.sh
