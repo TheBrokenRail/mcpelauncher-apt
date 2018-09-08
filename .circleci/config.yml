@@ -5,8 +5,11 @@ jobs:
       - image: buildpack-deps:bionic
     steps:
       - run:
+          name: Update APT
+          command: apt update
+      - run:
           name: Install Sudo
-          command: apt install sudo
+          command: apt install -y sudo dpkg-dev
       - checkout
       - run:
           name: Build MCPELauncher
