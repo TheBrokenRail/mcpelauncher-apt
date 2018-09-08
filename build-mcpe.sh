@@ -22,8 +22,7 @@ join() {
 DEPENDS_STR=$(join ' ' "${DEPENDS[@]}")
 
 cp -r ../deb/* deb
-dpkg-architecture
-sed -i -e 's/%ARCH%/'"$(dpkg-architecture -q DEB_HOST_ARCH)"'/g' deb/DEBIAN/control
+sed -i -e 's/%ARCH%/'"$(dpkg-architecture -q=DEB_HOST_ARCH)"'/g' deb/DEBIAN/control
 
 package() {
   for i in *; do
