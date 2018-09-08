@@ -16,7 +16,7 @@ jobs:
           command: ./build-mcpe.sh
       - run:
           name: Build Repo
-          command: reprepro -b repo includedeb bionic mcpe-build.out/*.deb
+          command: bash -c 'reprepro -b repo includedeb bionic mcpe-build.out/*.deb'
       - run:
           name: Deploy To Github Pages
           command: ./deploy.sh
