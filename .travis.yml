@@ -1,6 +1,8 @@
+services:
+  - docker
+sudo: true
 script:
-  - ./build-mcpe.sh
-  - ./build-repo.sh
+  - docker run -v $(pwd):/travis ubuntu:latest bash -c 'cd /travis; ./build-mcpe.sh; ./build-repo.sh'
 deploy:
   provider: pages
   skip-cleanup: true
