@@ -1,0 +1,8 @@
+Package: %NAME%
+Version: 1.0
+Section: unknown
+Priority: optional
+Architecture: %ARCH%
+Depends: %DEPENDS%
+Maintainer: MrARM
+Description: N/A
