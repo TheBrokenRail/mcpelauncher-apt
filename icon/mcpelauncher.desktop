@@ -4,6 +4,6 @@ Encoding=UTF-8
 Name=Minecraft Linux Launcher UI
 Comment=Run MCPE on Linux!
 Exec=mcpelauncher-ui-qt
-Icon=mcpelauncher-icon
+Icon=/usr/share/icons/hicolor/1024x1024/apps/mcpelauncher-icon.png
 Terminal=false
 StartupWMClass=mcpelauncher-ui-qt
