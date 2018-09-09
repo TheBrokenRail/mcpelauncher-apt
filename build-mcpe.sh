@@ -66,7 +66,7 @@ cd ../../
 # Build instructions
 git clone --recursive https://github.com/minecraft-linux/mcpelauncher-manifest.git core
 cd core && mkdir -p build && cd build
-cmake -DNATIVES_PATH_DIR=/opt/mcpelauncher-bin ..
+cmake -DDEV_EXTRA_PATHS="/opt/mcpelauncher-bin" ..
 make -j${THREADS}
 package
 cd ../../
