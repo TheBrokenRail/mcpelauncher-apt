@@ -19,7 +19,7 @@ jobs:
           command: openssl aes-256-cbc -d -in repo/conf/private -k ${GITHUB_TOKEN} | gpg --batch --import -
       - run:
           name: Build Repo
-          command: GPG_TTY=$(tty) reprepro -b repo includedeb bionic mcpe-build/out/*.deb
+          command: reprepro --ask-passphrase -b repo includedeb bionic mcpe-build/out/*.deb
       - run:
           name: Deploy To Github Pages
           command: ./deploy.sh
