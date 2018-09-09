@@ -89,7 +89,7 @@ native() {
   sed -i -e 's/%DEPENDS%//g' out/$1/DEBIAN/control
   echo "Conflicts: $2" >> out/$1/DEBIAN/control
   mkdir -p out/$1/opt/mcpelauncher-bin
-  cp core/$1/* out/$1/opt/mcpelauncher-bin
+  cp -r core/$1/* out/$1/opt/mcpelauncher-bin
   dpkg-deb --build out/$1
   rm -rf out/$1
 }
