@@ -61,12 +61,27 @@ make -j${THREADS}
 package
 cd ../../
 
+# Build Natives Packages
+bin() {
+  mkdir out/$1
+  cp -r deb/* out/$1
+  sed -i -e 's/%NAME%/'"$1"'/g' out/$1/DEBIAN/control
+  sed -i -e 's/%DEPENDS%//g' out/$1/DEBIAN/control
+  echo "Conflicts: $2" >> out/$1/DEBIAN/control
+  mkdir -p out/$1/opt/mcpelauncher-bin
+  cp core/$1/* out/$1/opt/mcpelauncher-bin
+  dpkg-deb --build out/$1
+  rm -rf out/$1
+}
+bin mcpelauncher-linux-bin mcpelauncher-mac-bin
+bin mcpelauncher-mac-bin mcpelauncher-linux-bin
+
 # Compiling the launcher
 
 # Build instructions
 git clone --recursive https://github.com/minecraft-linux/mcpelauncher-manifest.git core
 cd core && mkdir -p build && cd build
-cmake ..
+cmake -DNATIVES_PATH_DIR=/opt/mcpelauncher-bin ..
 make -j${THREADS}
 package
 cd ../../
