@@ -18,8 +18,11 @@ jobs:
           name: Import Key
           command: openssl aes-256-cbc -d -in repo/conf/private -k ${GITHUB_TOKEN} | gpg --batch --import -
       - run:
+          name: Cleanup
+          command: rm repo/conf/private
+      - run:
           name: Build Repo
-          command: reprepro --ask-passphrase -b repo includedeb bionic mcpe-build/out/*.deb
+          command: reprepro -b repo includedeb bionic mcpe-build/out/*.deb
       - run:
           name: Deploy To Github Pages
           command: ./deploy.sh
