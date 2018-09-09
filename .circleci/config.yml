@@ -16,7 +16,7 @@ jobs:
           command: ./build-mcpe.sh
       - run:
           name: Import Key
-          command: openssl aes-256-cbc -d -in private -k ${GITHUB_TOKEN} | gpg --import -
+          command: openssl aes-256-cbc -d -in repo/private -k ${GITHUB_TOKEN} | gpg --import -
       - run:
           name: Build Repo
           command: reprepro -b repo includedeb bionic mcpe-build/out/*.deb
