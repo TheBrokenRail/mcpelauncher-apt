@@ -5,8 +5,8 @@
 ```bash
 # Add Repo
 sudo dpkg --add-architecture i386
-wget -O - https://thebrokenrail.github.io/mcpelauncher/conf/key | sudo apt-key add -
-sudo add-apt-repository 'deb https://thebrokenrail.github.io/mcpelauncher/ bionic main'
+wget -O - https://thebrokenrail.github.io/mcpelauncher-apt/conf/key | sudo apt-key add -
+sudo add-apt-repository 'deb https://thebrokenrail.github.io/mcpelauncher-apt/ bionic main'
 sudo apt update
 
 # Install
