@@ -22,7 +22,7 @@ jobs:
           command: openssl aes-256-cbc -d -in repo/conf/private -k ${GITHUB_TOKEN} | gpg --batch --import -
       - run:
           name: Cleanup
-          command: rm repo/conf/private
+          command: rm -v repo/conf/private
       - run:
           name: Build Repo
           command: reprepro -b repo includedeb bionic mcpe-build/out/*.deb
