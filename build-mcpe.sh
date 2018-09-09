@@ -66,7 +66,7 @@ cd ../../
 # Build instructions
 git clone --recursive https://github.com/minecraft-linux/mcpelauncher-manifest.git core
 cd core && mkdir -p build && cd build
-cmake -DDEV_EXTRA_PATHS="/opt/mcpelauncher-bin" ..
+cmake ..
 make -j${THREADS}
 package
 cd ../../
@@ -88,8 +88,8 @@ native() {
   sed -i -e 's/%NAME%/'"$1"'/g' out/$1/DEBIAN/control
   sed -i -e 's/%DEPENDS%//g' out/$1/DEBIAN/control
   echo "Conflicts: $2" >> out/$1/DEBIAN/control
-  mkdir -p out/$1/opt/mcpelauncher-bin
-  cp -r core/$1/* out/$1/opt/mcpelauncher-bin
+  mkdir -p out/$1/usr/share/mcpelauncher
+  cp -r core/$1/* out/$1/usr/share/mcpelauncher
   dpkg-deb --build out/$1
   rm -rf out/$1
 }
