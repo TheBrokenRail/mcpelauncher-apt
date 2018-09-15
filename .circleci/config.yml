@@ -10,9 +10,7 @@ jobs:
       - run:
           name: Install Dependencies
           command: apt install -y sudo reprepro
-      - run:
-          name: Checkout
-          command: wget -O - https://raw.githubusercontent.com/TheBrokenRail/ftc_app/master/gh-pages/FTC-Setup.sh | bash
+      - checkout
       - run:
           name: Build MCPELauncher
           command: ./build-mcpe.sh
