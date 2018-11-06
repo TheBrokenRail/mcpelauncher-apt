@@ -10,7 +10,7 @@ sudo add-apt-repository 'deb https://thebrokenrail.github.io/mcpelauncher-apt/ b
 sudo apt update
 
 # Install
-sudo apt install sudo apt install msa-daemon msa-ui-qt mcpelauncher-client mcpelauncher-ui-qt mcpelauncher-ui-qt-icon mcpelauncher-linux-bin
+sudo apt install msa-daemon msa-ui-qt mcpelauncher-client mcpelauncher-ui-qt mcpelauncher-ui-qt-icon mcpelauncher-linux-bin
 
 # Install Server
 sudo apt install mcpelauncher-server
