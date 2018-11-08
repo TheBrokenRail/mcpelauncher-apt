@@ -39,6 +39,7 @@ package() {
         local depends=$(join ', ' "${libs[@]}")
         sed -i -e 's/%DEPENDS%/'"${depends}"'/g' ../../out/$i/DEBIAN/control
         sed -i -e 's/%VERSION%/'"$(git rev-list HEAD --count)"'/g' ../../out/$i/DEBIAN/control
+        sed -e 's/%VERSION%/'"$(git rev-list HEAD --count)"'/g' ../../out/$i/DEBIAN/control
         cp $i/$i ../../out/$i/usr/bin
         dpkg-deb --build ../../out/$i
         rm -rf ../../out/$i
@@ -49,8 +50,8 @@ package() {
 
 # Prerequirements
 sudo dpkg --add-architecture i386
-sudo apt update
-sudo apt install -y git cmake pkg-config ${DEPENDS_STR}
+sudo apt update > /dev/null
+sudo apt install -y git cmake pkg-config ${DEPENDS_STR} > /dev/null
 
 # Compiling the MSA dependency (required for Xbox Live)
 
