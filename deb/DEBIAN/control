@@ -1,5 +1,5 @@
 Package: %NAME%
-Version: 1.0
+Version: 1.0.%VERSION%
 Section: unknown
 Priority: optional
 Architecture: %ARCH%
