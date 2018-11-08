@@ -1,4 +1,4 @@
-# mcpelauncher
+# mcpelauncher [![CircleCI](https://circleci.com/gh/TheBrokenRail/mcpelauncher-apt/tree/master.svg?style=svg)](https://circleci.com/gh/TheBrokenRail/mcpelauncher-apt/tree/master)
 
 ### How to Use
 
