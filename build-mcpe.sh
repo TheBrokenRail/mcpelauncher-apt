@@ -103,7 +103,7 @@ mkdir out/mcpelauncher-ui-qt-icon
 cp -r deb/* out/mcpelauncher-ui-qt-icon
 sed -i -e 's/%NAME%/mcpelauncher-ui-qt-icon/g' out/mcpelauncher-ui-qt-icon/DEBIAN/control
 sed -i -e 's/%DEPENDS%//g' out/mcpelauncher-ui-qt-icon/DEBIAN/control
-sed -i -e 's/%VERSION%/'"$(git rev-list HEAD --count)"'/g' out/$1/DEBIAN/control
+sed -i -e 's/%VERSION%/'"$(git rev-list HEAD --count)"'/g' out/mcpelauncher-ui-qt-icon/DEBIAN/control
 mkdir -p out/mcpelauncher-ui-qt-icon/usr/share/icons/hicolor/1024x1024/apps
 cp ui/mcpelauncher-ui-qt/Resources/proprietary/mcpelauncher-icon.png out/mcpelauncher-ui-qt-icon/usr/share/icons/hicolor/1024x1024/apps/
 mkdir -p out/mcpelauncher-ui-qt-icon/usr/share/applications
