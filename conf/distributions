@@ -1,0 +1,7 @@
+Origin: thebrokenrail.github.io/mcpelauncher
+Label: thebrokenrail.github.io/mcpelauncher
+Codename: bionic
+Architectures: amd64
+Components: main
+Description: MCPELauncher
+SignWith: C4D40EC24C3EAC2B

@@ -1,0 +1,156 @@
+Package: mcpelauncher-client
+Version: 1.0.58
+Architecture: amd64
+Depends: libc6:i386, libc6:i386, libpng16-16:i386, libegl1:i386, libx11-6:i386, libudev1:i386, libevdev2:i386, libcurl4:i386, zlib1g:i386, libstdc++6:i386, libc6:i386, libgcc1:i386, libc6:i386, libc6:i386, libglvnd0:i386, libxcb1:i386, libnghttp2-14:i386, libidn2-0:i386, librtmp1:i386, libpsl5:i386, libssl1.1:i386, libssl1.1:i386, libgssapi-krb5-2:i386, libldap-2.4-2:i386, libldap-2.4-2:i386, libxau6:i386, libxdmcp6:i386, libunistring2:i386, libgnutls30:i386, libhogweed4:i386, libnettle6:i386, libgmp10:i386, libkrb5-3:i386, libk5crypto3:i386, libcom-err2:i386, libkrb5support0:i386, libc6:i386, libsasl2-2:i386, libgssapi3-heimdal:i386, libbsd0:i386, libp11-kit0:i386, libtasn1-6:i386, libkeyutils1:i386, libheimntlm0-heimdal:i386, libkrb5-26-heimdal:i386, libasn1-8-heimdal:i386, libhcrypto4-heimdal:i386, libroken18-heimdal:i386, libffi6:i386, libwind0-heimdal:i386, libheimbase1-heimdal:i386, libhx509-5-heimdal:i386, libsqlite3-0:i386, libc6:i386
+Maintainer: MrARM
+Priority: optional
+Section: unknown
+Filename: pool/main/m/mcpelauncher-client/mcpelauncher-client_1.0.58_amd64.deb
+Size: 687300
+SHA256: 008d84dbd9aff0ecbca6fde54de7cad491e50f7892c23147cc6f98bdb3c2d5aa
+SHA1: b15d2ac355d0dab08fa7ef8f27ebdfaf8947461d
+MD5sum: e2e79d65a8edabfd2bc9494c5f96fdff
+Description: N/A
+
+Package: mcpelauncher-extract
+Version: 1.0.12
+Architecture: amd64
+Depends: libzip4:amd64, libstdc++6:amd64, libgcc1:amd64, libc6:amd64, zlib1g:amd64, libc6:amd64
+Maintainer: MrARM
+Priority: optional
+Section: unknown
+Filename: pool/main/m/mcpelauncher-extract/mcpelauncher-extract_1.0.12_amd64.deb
+Size: 24968
+SHA256: ac5487d67e48f46ab9d1874d8bbe49e916bcd16d42d0f774c9808f2e0e8f8a10
+SHA1: c6ddbb96a530c55e0ea05bfd8e82a47fe9fd98a0
+MD5sum: 838fdad466ff00f024c0427ced944da6
+Description: N/A
+
+Package: mcpelauncher-just
+Version: 1.0.58
+Architecture: amd64
+Depends: libc6:i386, libc6:i386, libstdc++6:i386, libc6:i386, libgcc1:i386, libc6:i386, libc6:i386
+Maintainer: MrARM
+Priority: optional
+Section: unknown
+Filename: pool/main/m/mcpelauncher-just/mcpelauncher-just_1.0.58_amd64.deb
+Size: 120896
+SHA256: 45e0b5dc66e38738dc0bc4ce634591e79b77f81f9df244b151e263de04a171f3
+SHA1: 6f20144922bc1e17d379a547d12152db89a18243
+MD5sum: 32782736f6174a6b078fecb3f303916d
+Description: N/A
+
+Package: mcpelauncher-linux-bin
+Version: 1.0.58
+Architecture: amd64
+Depends: 
+Maintainer: MrARM
+Priority: optional
+Section: unknown
+Filename: pool/main/m/mcpelauncher-linux-bin/mcpelauncher-linux-bin_1.0.58_amd64.deb
+Size: 544464
+SHA256: aa8bbd156840b206638801ecb328a91576746857538623419c4c78c1ea98f4d1
+SHA1: d4b3d4de1e5761c698ff64ffc8af5fc319977f55
+MD5sum: 619d508e023ac839b5b0865e342917fc
+Description: N/A
+Conflicts: mcpelauncher-mac-bin
+
+Package: mcpelauncher-mac-bin
+Version: 1.0.58
+Architecture: amd64
+Depends: 
+Maintainer: MrARM
+Priority: optional
+Section: unknown
+Filename: pool/main/m/mcpelauncher-mac-bin/mcpelauncher-mac-bin_1.0.58_amd64.deb
+Size: 896412
+SHA256: f27b0f3b309c5bd0f022510b1221697c78298b2d2c8db720c00e2854607221ce
+SHA1: 1fcfa1306b4ea94ab9db17a49e0854ebe49efb0a
+MD5sum: bd73e174229cf9b23995145fec033feb
+Description: N/A
+Conflicts: mcpelauncher-linux-bin
+
+Package: mcpelauncher-server
+Version: 1.0.58
+Architecture: amd64
+Depends: libc6:i386, libc6:i386, libstdc++6:i386, libc6:i386, libgcc1:i386, libc6:i386, libc6:i386
+Maintainer: MrARM
+Priority: optional
+Section: unknown
+Filename: pool/main/m/mcpelauncher-server/mcpelauncher-server_1.0.58_amd64.deb
+Size: 203260
+SHA256: f182dacdca700b8486be2153f3f3f8930d827c5a8ed86314e75bc94ffc56aa80
+SHA1: a9e7dab62d04deb8a3343402efa924a7519295e1
+MD5sum: 3e2394b02c35c6878b852fea8e96ec98
+Description: N/A
+
+Package: mcpelauncher-ui-qt
+Version: 1.0.12
+Architecture: amd64
+Depends: libqt5webenginewidgets5:amd64, libqt5webenginecore5:amd64, libqt5webchannel5:amd64, libqt5qml5:amd64, libqt5network5:amd64, libqt5widgets5:amd64, libqt5gui5:amd64, libqt5core5a:amd64, libzip4:amd64, libcurl4:amd64, zlib1g:amd64, libprotobuf10:amd64, libuv1:amd64, libc6:amd64, libstdc++6:amd64, libc6:amd64, libgcc1:amd64, libc6:amd64, libqt5quick5:amd64, libqt5printsupport5:amd64, libqt5quickwidgets5:amd64, libqt5positioning5:amd64, libc6:amd64, libc6:amd64, libglib2.0-0:amd64, libicu60:amd64, libicu60:amd64, libnss3:amd64, libnss3:amd64, libnss3:amd64, libnspr4:amd64, libevent-2.1-6:amd64, libx11-6:amd64, libx11-xcb1:amd64, libxcb1:amd64, libxcomposite1:amd64, libxcursor1:amd64, libxdamage1:amd64, libxext6:amd64, libxfixes3:amd64, libxi6:amd64, libxrender1:amd64, libxtst6:amd64, libxss1:amd64, libfontconfig1:amd64, libfreetype6:amd64, libexpat1:amd64, libharfbuzz0b:amd64, libpng16-16:amd64, libjpeg-turbo8:amd64, libre2-4:amd64, libdbus-1-3:amd64, libavcodec57:amd64, libavformat57:amd64, libavutil55:amd64, libopus0:amd64, libasound2:amd64, libsnappy1v5:amd64, libxml2:amd64, libminizip1:amd64, libwebpdemux2:amd64, libwebp6:amd64, libxslt1.1:amd64, liblcms2-2:amd64, libgl1:amd64, libdouble-conversion1:amd64, libnghttp2-14:amd64, libidn2-0:amd64, librtmp1:amd64, libpsl5:amd64, libssl1.1:amd64, libssl1.1:amd64, libgssapi-krb5-2:amd64, libldap-2.4-2:amd64, libldap-2.4-2:amd64, libpcre3:amd64, libicu60:amd64, libnspr4:amd64, libnspr4:amd64, libxau6:amd64, libxdmcp6:amd64, libgraphite2-3:amd64, libsystemd0:amd64, libswresample2:amd64, libcrystalhd3:amd64, libva2:amd64, libzvbi0:amd64, libxvidcore4:amd64, libx265-146:amd64, libx264-152:amd64, libwebpmux3:amd64, libwavpack1:amd64, libvpx5:amd64, libvorbisenc2:amd64, libvorbis0a:amd64, libtwolame0:amd64, libtheora0:amd64, libtheora0:amd64, libspeex1:amd64, libshine3:amd64, librsvg2-2:amd64, libglib2.0-0:amd64, libcairo2:amd64, libopenjp2-7:amd64, libmp3lame0:amd64, libgsm1:amd64, liblzma5:amd64, libssh-gcrypt-4:amd64, libopenmpt0:amd64, libbluray2:amd64, libgnutls30:amd64, libgme0:amd64, libchromaprint1:amd64, libbz2-1.0:amd64, libdrm2:amd64, libvdpau1:amd64, libva-x11-2:amd64, libva-drm2:amd64, libglx0:amd64, libglvnd0:amd64, libunistring2:amd64, libhogweed4:amd64, libnettle6:amd64, libgmp10:amd64, libkrb5-3:amd64, libk5crypto3:amd64, libcom-err2:amd64, libkrb5support0:amd64, libc6:amd64, libsasl2-2:amd64, libgssapi3-heimdal:amd64, libbsd0:amd64, liblz4-1:amd64, libgcrypt20:amd64, libsoxr0:amd64, libnuma1:amd64, libogg0:amd64, libgdk-pixbuf2.0-0:amd64, libglib2.0-0:amd64, libpangocairo-1.0-0:amd64, libpangoft2-1.0-0:amd64, libpango-1.0-0:amd64, libcroco3:amd64, libffi6:amd64, libpixman-1-0:amd64, libxcb-shm0:amd64, libxcb-render0:amd64, libmpg123-0:amd64, libvorbisfile3:amd64, libp11-kit0:amd64, libtasn1-6:amd64, libkeyutils1:amd64, libheimntlm0-heimdal:amd64, libkrb5-26-heimdal:amd64, libasn1-8-heimdal:amd64, libhcrypto4-heimdal:amd64, libroken18-heimdal:amd64, libgpg-error0:amd64, libgomp1:amd64, libglib2.0-0:amd64, libselinux1:amd64, libmount1:amd64, libthai0:amd64, libwind0-heimdal:amd64, libheimbase1-heimdal:amd64, libhx509-5-heimdal:amd64, libsqlite3-0:amd64, libc6:amd64, libblkid1:amd64, libdatrie1:amd64, libuuid1:amd64
+Maintainer: MrARM
+Priority: optional
+Section: unknown
+Filename: pool/main/m/mcpelauncher-ui-qt/mcpelauncher-ui-qt_1.0.12_amd64.deb
+Size: 1175312
+SHA256: 9e61665635936951a4e13d76b3f80ad9fb7967fb587b6d1584bb4ca8ca3bf5e7
+SHA1: ae7b8d916ae9978d68a48ba2ac1c59bf427f489e
+MD5sum: f4de9be0d10d82496135252f45d67406
+Description: N/A
+
+Package: mcpelauncher-ui-qt-icon
+Version: 1.0.71
+Architecture: amd64
+Depends: 
+Maintainer: MrARM
+Priority: optional
+Section: unknown
+Filename: pool/main/m/mcpelauncher-ui-qt-icon/mcpelauncher-ui-qt-icon_1.0.71_amd64.deb
+Size: 99248
+SHA256: 416638473025b666da80f697b7c7fc57f198274112bf4eaf005dc0e604ce5605
+SHA1: daabbc0da0caa6d8d7a0f8cf8cd6fe6a9b667499
+MD5sum: 517cbe10ea0edd9303d1bd4dd8e0a8ee
+Description: N/A
+
+Package: msa-daemon
+Version: 1.0.16
+Architecture: amd64
+Depends: libcurl4:amd64, libssl1.1:amd64, libc6:amd64, libstdc++6:amd64, libc6:amd64, libgcc1:amd64, libc6:amd64, libnghttp2-14:amd64, libidn2-0:amd64, librtmp1:amd64, libpsl5:amd64, libssl1.1:amd64, libgssapi-krb5-2:amd64, libldap-2.4-2:amd64, libldap-2.4-2:amd64, zlib1g:amd64, libc6:amd64, libunistring2:amd64, libgnutls30:amd64, libhogweed4:amd64, libnettle6:amd64, libgmp10:amd64, libkrb5-3:amd64, libk5crypto3:amd64, libcom-err2:amd64, libkrb5support0:amd64, libc6:amd64, libsasl2-2:amd64, libgssapi3-heimdal:amd64, libp11-kit0:amd64, libtasn1-6:amd64, libkeyutils1:amd64, libheimntlm0-heimdal:amd64, libkrb5-26-heimdal:amd64, libasn1-8-heimdal:amd64, libhcrypto4-heimdal:amd64, libroken18-heimdal:amd64, libffi6:amd64, libwind0-heimdal:amd64, libheimbase1-heimdal:amd64, libhx509-5-heimdal:amd64, libsqlite3-0:amd64, libc6:amd64
+Maintainer: MrARM
+Priority: optional
+Section: unknown
+Filename: pool/main/m/msa-daemon/msa-daemon_1.0.16_amd64.deb
+Size: 411068
+SHA256: 25c073faceb112961fdaafa960dcd27bfc2e4543d0f8e91b7e2249f77e5b7de6
+SHA1: f67d0b3fedf6df8a28cfe6a8d462fbd3d9cfbbdd
+MD5sum: bafa2aa779abd18a502e6cf05d275a2c
+Description: N/A
+
+Package: msa-ui-qt
+Version: 1.0.16
+Architecture: amd64
+Depends: libqt5webenginewidgets5:amd64, libqt5webenginecore5:amd64, libqt5webchannel5:amd64, libqt5network5:amd64, libqt5widgets5:amd64, libqt5gui5:amd64, libqt5core5a:amd64, libc6:amd64, libstdc++6:amd64, libc6:amd64, libgcc1:amd64, libc6:amd64, libqt5quick5:amd64, libqt5printsupport5:amd64, libqt5quickwidgets5:amd64, libqt5positioning5:amd64, libc6:amd64, libc6:amd64, libglib2.0-0:amd64, libicu60:amd64, libicu60:amd64, libnss3:amd64, libnss3:amd64, libnss3:amd64, libnspr4:amd64, libevent-2.1-6:amd64, libx11-6:amd64, libx11-xcb1:amd64, libxcb1:amd64, libxcomposite1:amd64, libxcursor1:amd64, libxdamage1:amd64, libxext6:amd64, libxfixes3:amd64, libxi6:amd64, libxrender1:amd64, libxtst6:amd64, libxss1:amd64, libfontconfig1:amd64, libfreetype6:amd64, libexpat1:amd64, zlib1g:amd64, libharfbuzz0b:amd64, libpng16-16:amd64, libjpeg-turbo8:amd64, libre2-4:amd64, libdbus-1-3:amd64, libavcodec57:amd64, libavformat57:amd64, libavutil55:amd64, libopus0:amd64, libasound2:amd64, libsnappy1v5:amd64, libxml2:amd64, libminizip1:amd64, libwebpdemux2:amd64, libwebp6:amd64, libxslt1.1:amd64, liblcms2-2:amd64, libqt5qml5:amd64, libgl1:amd64, libdouble-conversion1:amd64, libpcre3:amd64, libicu60:amd64, libnspr4:amd64, libnspr4:amd64, libxau6:amd64, libxdmcp6:amd64, libgraphite2-3:amd64, libsystemd0:amd64, libswresample2:amd64, libcrystalhd3:amd64, libva2:amd64, libzvbi0:amd64, libxvidcore4:amd64, libx265-146:amd64, libx264-152:amd64, libwebpmux3:amd64, libwavpack1:amd64, libvpx5:amd64, libvorbisenc2:amd64, libvorbis0a:amd64, libtwolame0:amd64, libtheora0:amd64, libtheora0:amd64, libspeex1:amd64, libshine3:amd64, librsvg2-2:amd64, libglib2.0-0:amd64, libcairo2:amd64, libopenjp2-7:amd64, libmp3lame0:amd64, libgsm1:amd64, liblzma5:amd64, libssh-gcrypt-4:amd64, libopenmpt0:amd64, libbluray2:amd64, libgnutls30:amd64, libgme0:amd64, libchromaprint1:amd64, libbz2-1.0:amd64, libdrm2:amd64, libvdpau1:amd64, libva-x11-2:amd64, libva-drm2:amd64, libglx0:amd64, libglvnd0:amd64, libbsd0:amd64, liblz4-1:amd64, libgcrypt20:amd64, libsoxr0:amd64, libnuma1:amd64, libogg0:amd64, libgdk-pixbuf2.0-0:amd64, libglib2.0-0:amd64, libpangocairo-1.0-0:amd64, libpangoft2-1.0-0:amd64, libpango-1.0-0:amd64, libcroco3:amd64, libffi6:amd64, libpixman-1-0:amd64, libxcb-shm0:amd64, libxcb-render0:amd64, libgssapi-krb5-2:amd64, libmpg123-0:amd64, libvorbisfile3:amd64, libp11-kit0:amd64, libidn2-0:amd64, libunistring2:amd64, libtasn1-6:amd64, libnettle6:amd64, libhogweed4:amd64, libgmp10:amd64, libgpg-error0:amd64, libgomp1:amd64, libglib2.0-0:amd64, libselinux1:amd64, libc6:amd64, libmount1:amd64, libthai0:amd64, libkrb5-3:amd64, libk5crypto3:amd64, libcom-err2:amd64, libkrb5support0:amd64, libblkid1:amd64, libdatrie1:amd64, libkeyutils1:amd64, libuuid1:amd64
+Maintainer: MrARM
+Priority: optional
+Section: unknown
+Filename: pool/main/m/msa-ui-qt/msa-ui-qt_1.0.16_amd64.deb
+Size: 299372
+SHA256: 76ea5fc6f8f8cd06314dffa023a733c177a367feb7270aefa1a5243416d422c8
+SHA1: 116d3c9d079bc23cf2a4d99c042d6403691557a9
+MD5sum: 21566424c10e35dfe7d75a144a8c4b0b
+Description: N/A
+
+Package: playdl-signin-ui-qt
+Version: 1.0.12
+Architecture: amd64
+Depends: libqt5webenginewidgets5:amd64, libqt5webenginecore5:amd64, libqt5webchannel5:amd64, libqt5widgets5:amd64, libqt5gui5:amd64, libqt5network5:amd64, libqt5core5a:amd64, libstdc++6:amd64, libc6:amd64, libgcc1:amd64, libc6:amd64, libqt5quick5:amd64, libqt5printsupport5:amd64, libqt5quickwidgets5:amd64, libc6:amd64, libqt5positioning5:amd64, libc6:amd64, libc6:amd64, libglib2.0-0:amd64, libicu60:amd64, libicu60:amd64, libnss3:amd64, libnss3:amd64, libnss3:amd64, libnspr4:amd64, libevent-2.1-6:amd64, libx11-6:amd64, libx11-xcb1:amd64, libxcb1:amd64, libxcomposite1:amd64, libxcursor1:amd64, libxdamage1:amd64, libxext6:amd64, libxfixes3:amd64, libxi6:amd64, libxrender1:amd64, libxtst6:amd64, libxss1:amd64, libfontconfig1:amd64, libfreetype6:amd64, libexpat1:amd64, zlib1g:amd64, libharfbuzz0b:amd64, libpng16-16:amd64, libjpeg-turbo8:amd64, libre2-4:amd64, libdbus-1-3:amd64, libavcodec57:amd64, libavformat57:amd64, libavutil55:amd64, libopus0:amd64, libasound2:amd64, libsnappy1v5:amd64, libxml2:amd64, libminizip1:amd64, libwebpdemux2:amd64, libwebp6:amd64, libxslt1.1:amd64, liblcms2-2:amd64, libqt5qml5:amd64, libgl1:amd64, libdouble-conversion1:amd64, libpcre3:amd64, libicu60:amd64, libnspr4:amd64, libnspr4:amd64, libxau6:amd64, libxdmcp6:amd64, libgraphite2-3:amd64, libsystemd0:amd64, libswresample2:amd64, libcrystalhd3:amd64, libva2:amd64, libzvbi0:amd64, libxvidcore4:amd64, libx265-146:amd64, libx264-152:amd64, libwebpmux3:amd64, libwavpack1:amd64, libvpx5:amd64, libvorbisenc2:amd64, libvorbis0a:amd64, libtwolame0:amd64, libtheora0:amd64, libtheora0:amd64, libspeex1:amd64, libshine3:amd64, librsvg2-2:amd64, libglib2.0-0:amd64, libcairo2:amd64, libopenjp2-7:amd64, libmp3lame0:amd64, libgsm1:amd64, liblzma5:amd64, libssh-gcrypt-4:amd64, libopenmpt0:amd64, libbluray2:amd64, libgnutls30:amd64, libgme0:amd64, libchromaprint1:amd64, libbz2-1.0:amd64, libdrm2:amd64, libvdpau1:amd64, libva-x11-2:amd64, libva-drm2:amd64, libglx0:amd64, libglvnd0:amd64, libbsd0:amd64, liblz4-1:amd64, libgcrypt20:amd64, libsoxr0:amd64, libnuma1:amd64, libogg0:amd64, libgdk-pixbuf2.0-0:amd64, libglib2.0-0:amd64, libpangocairo-1.0-0:amd64, libpangoft2-1.0-0:amd64, libpango-1.0-0:amd64, libcroco3:amd64, libffi6:amd64, libpixman-1-0:amd64, libxcb-shm0:amd64, libxcb-render0:amd64, libgssapi-krb5-2:amd64, libmpg123-0:amd64, libvorbisfile3:amd64, libp11-kit0:amd64, libidn2-0:amd64, libunistring2:amd64, libtasn1-6:amd64, libnettle6:amd64, libhogweed4:amd64, libgmp10:amd64, libgpg-error0:amd64, libgomp1:amd64, libglib2.0-0:amd64, libselinux1:amd64, libc6:amd64, libmount1:amd64, libthai0:amd64, libkrb5-3:amd64, libk5crypto3:amd64, libcom-err2:amd64, libkrb5support0:amd64, libblkid1:amd64, libdatrie1:amd64, libkeyutils1:amd64, libuuid1:amd64
+Maintainer: MrARM
+Priority: optional
+Section: unknown
+Filename: pool/main/p/playdl-signin-ui-qt/playdl-signin-ui-qt_1.0.12_amd64.deb
+Size: 23920
+SHA256: d387cc4b2518ddd4b939ccc632120621fc60e23d9f2f69cbd3f71b38acce4be1
+SHA1: 4bedd52e8415139df672dc69e62e5aaf21edf44d
+MD5sum: eec8474c96ae91daf024501244979118
+Description: N/A
+

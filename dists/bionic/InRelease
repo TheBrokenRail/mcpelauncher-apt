@@ -1,0 +1,38 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: thebrokenrail.github.io/mcpelauncher
+Label: thebrokenrail.github.io/mcpelauncher
+Codename: bionic
+Date: Sat, 10 Nov 2018 19:33:00 UTC
+Architectures: amd64
+Components: main
+Description: MCPELauncher
+MD5Sum:
+ 989dc6ed8b81b2da0b8355c9e3d96642 15175 main/binary-amd64/Packages
+ 97bd672bcaa2d63d8bc53d7c8682dbfd 2916 main/binary-amd64/Packages.gz
+ 81d726bc8fa457fe939d58fbf3ec27b4 151 main/binary-amd64/Release
+SHA1:
+ 7be12d64f787fe63f87684ebba4f5e1a50015c69 15175 main/binary-amd64/Packages
+ 4fd2b5edef55c3f92610abbc1dc4f8e234db1882 2916 main/binary-amd64/Packages.gz
+ 1eecde02ac6c72214390ad618bb682ec87789479 151 main/binary-amd64/Release
+SHA256:
+ 5c043f4794e2de1bd906df1ed75349aaa817d783fd063de5b0e57d20c53fda9a 15175 main/binary-amd64/Packages
+ b478332445fe05bf98f0d468f082a1e6faaf1945f0544821ab7d13f52410db3e 2916 main/binary-amd64/Packages.gz
+ 286306dcd219d27a1d33487cc6a754f332cfe1ffc26c5f4b5e8f42d20bb10bfa 151 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEXFCrBSZ1KT15ych5xNQOwkw+rCsFAlvnMmwACgkQxNQOwkw+
+rCtnyg//bU96w5LcXYO1qNpy1MJLQ7drl+Pp6xGHpPNt2Z1/zqkHYrNVereDRaGj
+6NRg78s6tHrUYr5oK2BZWkdpa7ZNSzLw7bGrzheQlOecloqjF9AVXtvodUniPxiY
+gtx6Zuh7xjwzapqH3m2TavS9LyKC5+Qm/8t0faMOx6Lb5VGcti4jwM0x1fnG2Xfk
+mzVV0NS5STEzQbYYjX1uCP2w5OOV68E5hvjsKR67yaO67Tcizt1q5o6Hf5Vw5Vlw
+V08fDMC6dfEZZLaa8vLThgsDO7zA6oOSZXoFntEs2Ca5xI6W8t7cStSwr8UxOREw
+5Qex8/lXVC0yj4GL6ccW5fOGV0ZAsbcb50dGq/4vizSU4oOcc2LHuBGXssvk/21t
+mIuATPyJiypPQAa3WgbD4No33jwjkJWAJee8d3ZMriWzh3GdzolvE2pqryVxbDmC
+XyAOlOqoqlsHuyB0F/MuREnjtUCTiNCIXA+5d0Qi6YtVl/8K0z73LBooJtVgcUO3
+9n4ykYSl7k2S7ubqb05j9a9Iq2W4+qcUZwkcJvzGEF6QLhRoGyYYXq60JITAbOJs
+5F3mkNpP1CIDcf2gA+b7g45OmiDqYr5f66Xm1bJ/vFf/k6a7bSI1V3L/+PjaM/q5
+QAIjB6xEt+8M+nHFQDDxWuCxHQeKl7iruZYapt6/wpGWgsVhlJE=
+=JvnS
+-----END PGP SIGNATURE-----
